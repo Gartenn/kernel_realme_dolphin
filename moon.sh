@@ -1,5 +1,4 @@
 #!/bin/bash
-rm -rf AnyKernel
 function compile() 
 {
 
