@@ -29,7 +29,7 @@ function zupload()
 git clone --depth=1 https://github.com/DPSLEGEND/Anykernel3.git -b moon AnyKernel
 cp out/arch/arm64/boot/Image.gz-dtb AnyKernel
 cd AnyKernel
-zip -r9 Test-DolphinKernel-moon.zip *
+zip -r9 Test-MoonlightKSU-moon.zip *
 curl -sL https://git.io/file-transfer | sh
 ./transfer wet Test-DolphinKernel-moon.zip
 }
