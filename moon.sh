@@ -26,7 +26,7 @@ make -j$(nproc --all) O=out \
 
 function zupload()
 {
-git clone --depth=1 https://github.com/DPSLEGEND/Anykernel3.git -b moon AnyKernel
+git clone --depth=1 https://github.com/Gartenn/Anykernel3.git -b moon AnyKernel
 cp out/arch/arm64/boot/Image.gz-dtb AnyKernel
 cd AnyKernel
 zip -r9 Test-MoonlightKSU-moon.zip *
