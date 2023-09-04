@@ -32,7 +32,7 @@ cp out/arch/arm64/boot/Image.gz-dtb AnyKernel
 cd AnyKernel
 zip -r9 Test-DolphinKernel-moon.zip *
 curl -sL https://git.io/file-transfer | sh
-./transfer wet Test-DolphinKernel-moon.zip
+./transfer git.io Test-DolphinKernel-moon.zip
 }
 
 compile
