@@ -9,7 +9,7 @@ export ARCH=arm64
 export KBUILD_BUILD_HOST=GearCI
 export KBUILD_BUILD_USER="Gartenn"
 git clone --depth=1 https://github.com/sarthakroy2002/android_prebuilts_clang_host_linux-x86_clang-6443078 clang
-git clone --depth=1 https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9 los-4.9-64
+git clone --depth=1  https://gitlab.com/firefly-linux/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu.git los-4.9-64
 git clone --depth=1 https://github.com/MayuriLabs/linaro_arm-linux-gnueabihf-7.5 los-4.9-32
 
 make O=out ARCH=arm64 moon_defconfig
