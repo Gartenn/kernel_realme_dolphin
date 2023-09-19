@@ -22,7 +22,6 @@ grep: .config: No such file or directory
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
  
-
 # Make data base, printed on Sun Jun 12 13:18:10 2022
 
 # Variables
