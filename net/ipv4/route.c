@@ -3016,7 +3016,6 @@ static struct ctl_table ipv4_route_flush_table[] = {
 	{ },
 };
 
-
 static __net_init int sysctl_route_net_init(struct net *net)
 {
 	struct ctl_table *tbl;
