@@ -29,10 +29,4 @@ function zupload()
 git clone --depth=1 https://github.com/Gartenn/Anykernel3.git -b moon AnyKernel
 cp out/arch/arm64/boot/Image.gz-dtb AnyKernel
 cd AnyKernel
-zip -r9 Test-MoonlightKSU-moon.zip *
-curl -sL https://git.io/file-transfer | sh
-./transfer file.io MoonlightKSU-v4.14.250-moon.zip
-}
-
-compile
-zupload
+zip -r9 MoonlightKSU-280-moon.zip *
